@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+.directory__wrapper--card {
+  font-family: "Open Sans", sans-serif;
+  width: var(--width-card, 210px);
+  height: var(--height-card, 16rem);
+  border: var(--color-border-card, #ff7900 solid 5px);
+  background-color: var(--color-background-text, #fff);
+  margin: 1.5rem 0.7rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.main__directory--link {
+  text-decoration: none;
+}
+
+.card__wrapper {
+  width: var(--width-content, 150px);
+  height: var(--height-content, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.far .fa-clock {
+  font-size: var(--size-icon, 5.5rem);
+  padding: 0 0 1rem;
+  color: var(--color-icon, #ff7900);
+}
+
+.card__title {
+  color: var(--color-title-text, #212121);
+  font-size: var(--font-size-title-text, 24px);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.card__description {
+  color: var(--color-subtitle-text, #575756);
+}
